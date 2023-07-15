@@ -3,7 +3,7 @@
   const img = ref('01.jpg');
 
   watch(() => route.name, (curr,  prev) => {
-    const random = Math.floor(Math.random() * (6 - 1) + 1)
+    const random = Math.floor(Math.random() * (10 - 1) + 1)
     img.value = `/0${random}.jpg`
   });
 </script>
