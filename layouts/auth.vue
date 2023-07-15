@@ -4,7 +4,7 @@
 
 <template>
   <div class="flex h-screen w-full relative items-center justify-center">
-    <div class="w-1/5">
+    <div class="w-full md:w-1/2 lg:w-1/3">
       <Card>
         <slot/>
       </Card>
