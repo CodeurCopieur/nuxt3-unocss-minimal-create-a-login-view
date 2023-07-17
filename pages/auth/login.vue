@@ -1,5 +1,5 @@
 <template>
   <NuxtLayout name="auth">
-    <AuthiLoginForm />
+    <LoginForm />
   </NuxtLayout>
 </template>
