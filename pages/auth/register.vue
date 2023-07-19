@@ -1,5 +1,5 @@
 <template>
   <NuxtLayout name="auth">
-    Register
+    <CreateForm/>
   </NuxtLayout>
 </template>
