@@ -1,6 +1,6 @@
 <template>
  <div class="w-full">
-  <CustomHeader title="bienvenue :)" subtitle="veuillez-vous connecter à votre compte" />
+  <CustomHeader title="Bienvenue :)" subtitle="Veuillez-vous connecter à votre compte" />
   <form class="flex flex-col mt-8 w-full gap-4">
     <div class="flex flex-col relative">
       <label for="email" class="font-semibold font-sans text-sm text-gray-900">Email</label>
@@ -14,7 +14,9 @@
       </div>
       <div class="flex flex-col gap-2">
         <button class="bg-gray-900 mt-2 text-base text-gray-50 button">Allons-y</button>
-        <p class="font-medium mt-2 text-center text-xs text-gray-900/80">Pas encore inscrit? <NuxtLink to="/auth/register">Créer un compte</NuxtLink></p>
+        <p class="font-medium mt-2 text-center text-xs text-gray-900/80">Pas encore inscrit? 
+          <NuxtLink to="/auth/register" class="text-gray-900 underline">Créer un compte</NuxtLink>
+        </p>
       </div>
     </div>
   </form>
