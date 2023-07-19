@@ -1,6 +1,3 @@
-<script setup>
-  
-</script>
 <template>
  <div class="w-full"> 
   <CustomHeader title="Créer un compte" subtitle="Merci de remplir les champs ci-dessous" />
